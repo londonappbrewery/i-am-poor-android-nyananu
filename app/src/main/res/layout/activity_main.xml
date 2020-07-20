@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C8AD59"
+    android:background="#D5AD34"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -17,8 +17,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="false"
         android:layout_centerVertical="true"
-        app:srcCompat="@drawable/coal"
-        android:contentDescription="@string/desc" />
+        android:contentDescription="@string/desc"
+        app:srcCompat="@drawable/coal" />
 
     <TextView
         android:id="@+id/textView"
